@@ -22,6 +22,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+/*
 a {
   text-decoration: none;
   transition: all 0.2s ease 0s;
@@ -40,25 +41,46 @@ a:hover {
 a:active {
   color: #6a26cd;
 }
-
+*/
 body {
   background-color: #0b153c;
+  background-image: url(../imgs/wallpaper.png);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
   padding: 40px 70px 120px;
 }
 .cabecalho {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-height: 69px;
+  max-width: 1300px;
+  margin: auto;
 }
 .logo-img {
-  width: 250px;
-  height: 45px;
+  max-width: 250px;
+  max-height: 45px;
 }
 .navbar-list {
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: space-between;
+}
+.navbar-list-item {
+  margin-right: 25px;
+}
+.navbar-list-item-link {
+  color: hsla(0, 0%, 100%, 0.5);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.navbar-list-item:nth-child(4) {
+  margin-right: 0;
+}
+.activated-navbar {
+  font-weight: bold;
+  color: white;
 }
 .check-btn {
   background-color: rgba(196, 196, 196, 0.1);
