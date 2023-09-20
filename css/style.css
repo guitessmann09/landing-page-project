@@ -45,21 +45,27 @@ a:active {
 body {
   background-color: #0b153c;
   background-image: url(../imgs/wallpaper.png);
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: 100%;
   padding: 40px 70px 120px;
 }
 .cabecalho {
   display: flex;
+  width: 100vw;
   align-items: center;
   justify-content: space-between;
   max-height: 69px;
-  max-width: 1300px;
+  max-width: 91.2vw;
   margin: auto;
+  margin-bottom: 100px;
 }
 .logo-img {
   max-width: 250px;
   max-height: 45px;
+}
+.logo-img:hover {
+  cursor: pointer;
 }
 .navbar-list {
   display: flex;
@@ -74,6 +80,11 @@ body {
   color: hsla(0, 0%, 100%, 0.5);
   text-decoration: none;
   font-size: 1rem;
+}
+.navbar-list-item-link:hover {
+  font-weight: bold;
+  color: white;
+  transition: all 0.2s;
 }
 .navbar-list-item:nth-child(4) {
   margin-right: 0;
@@ -93,4 +104,19 @@ body {
 }
 .check-btn:hover {
   cursor: pointer;
+}
+
+.main-texts-div {
+  max-width: 603px;
+  color: white;
+}
+
+span, .main-texts-div > h2:nth-child(1) {
+  color: #17C2EC;
+}
+h1 {
+  font-size: 48px;
+}
+.main-texts-div > h2:nth-child(3) {
+  color: rgba(255, 255, 255, 0.700);
 }
