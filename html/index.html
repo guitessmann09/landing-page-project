@@ -62,21 +62,21 @@
         <div class="local">
           <ul class="local-list">
             <li class="list-item">
-              <img src="../imgs/loc-icon.png" alt="">
+              <img src="../imgs/loc-icon.png" alt="" />
               <div class="list-item-txts-div">
                 <h3 class="list-item-title">Location</h3>
                 <p class="list-item-paragraph">Ikeja Lagos, Nigeria</p>
               </div>
             </li>
             <li class="list-item">
-              <img src="../imgs/calendar.png" alt="">
+              <img src="../imgs/calendar.png" alt="" />
               <div class="list-item-txts-div">
                 <h3 class="list-item-title">Date</h3>
                 <p class="list-item-paragraph">29 February, 2022</p>
               </div>
             </li>
             <li class="list-item">
-              <img src="../imgs/shield.png" alt="">
+              <img src="../imgs/shield.png" alt="" />
               <div class="list-item-txts-div">
                 <h3 class="list-item-title">Vaccine Type</h3>
                 <p class="list-item-paragraph">Moderna</p>
@@ -86,14 +86,44 @@
           <button class="btn-style">Submit</button>
         </div>
       </div>
-      
     </div>
     <div class="vaccine-types-div">
       <div class="imgs-vaccin-div">
-        <img src="..//imgs/Moderna_logo 1.png" alt="" class="vaccine-type">
-        <img src="..//imgs/Pfizer_(2021) 1.png" alt="" class="vaccine-type">
-        <img src="..//imgs/yellow-logo-zeneca-pharmaceutical-industry-brand 1.png" alt="" class="vaccine-type">
-        <img src="..//imgs/sinovac1336 1.png" alt="" class="vaccine-type">
+        <picture>
+          <source
+            media="(max-width: 1330px)"
+            srcset="=moderna_logo_medio.png"
+            type="image/png"
+          />
+          <img src="..//imgs/Moderna_logo 1.png" alt="" class="vaccine-type" />
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 1330px)"
+            srcset="..//imgs/Pfizer_(2021)_m.png"
+            type="image/png"
+          />
+          <img src="..//imgs/Pfizer_(2021) 1.png" alt="" class="vaccine-type" />
+        </picture>
+        <picture>
+          <
+          <source
+            media="(max-width: 1330px)"
+            srcset="
+              ..//imgs/yellow-logo-zeneca-pharmaceutical-industry-brand_m.png
+            "
+            type="image/png" />
+          >
+          <img
+            src="..//imgs/yellow-logo-zeneca-pharmaceutical-industry-brand 1.png"
+            alt=""
+            class="vaccine-type"
+        /></picture>
+        <picture
+          >
+          <source media="(max-width: 1330px)" srcset="..//imgs/sinovac1336_m.png" type="image/png">
+          <img src="..//imgs/sinovac1336 1.png" alt="" class="vaccine-type"
+        /></picture>
       </div>
     </div>
   </body>
