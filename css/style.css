@@ -171,7 +171,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 150px;
   margin-top: 10px;
   padding: 46px 40px;
   background-color: rgba(196, 196, 196, 0.1);
@@ -220,8 +219,8 @@ h1 {
 }
 
 @media screen and (max-width: 1280px) {
-  .main-site {
-    
+  .main-div {
+    justify-content: center;
   }
   .main-texts-div {
     margin-bottom: 55px;
@@ -232,5 +231,16 @@ h1 {
   .main-site {
     margin: 0 20px;
   }
+  .vaccine-types-div {
+    display: flex;
+    padding: 0px 50px;
+  }
+  .imgs-vaccin-div {
+    width: 100vw;
+  }
+  .local {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr 1fr);
+  }
 }
-
