@@ -219,13 +219,32 @@ h1 {
   opacity: 50%;
 }
 
+@media screen and (max-width: 600px) {
+  .check-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .main-texts-div {
+    font-size: 100%;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-container {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .main-div {
     justify-content: center;
   }
   .main-texts-div {
     margin-bottom: 55px;
-    max-width: 100vw;
+    max-width: 39,06%;
   }
 }
 
