@@ -170,7 +170,11 @@ h1 {
 .local {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: space-between;
+=======
+  justify-content: space-around;
+>>>>>>> 5022b168e4e22f7c9c194ee2ff4e419e2ec7d280
   margin-top: 10px;
   padding: 46px 40px;
   background-color: rgba(196, 196, 196, 0.1);
@@ -202,6 +206,12 @@ h1 {
   font-weight: bold;
   font-size: 24px;
 }
+
+.btn-submit-none {
+  margin-right: auto;
+  display: none;
+}
+
 .vaccine-types-div {
   padding: 20px 10px 70px;
   height: 150px;
@@ -218,12 +228,61 @@ h1 {
   opacity: 50%;
 }
 
+.vaccine-result {
+  background-color: rgba(196, 196, 196, 0.1);
+  max-width: 1300px;
+  margin: 72px auto 0px auto;
+  border-radius: 20px;
+}
+
+.result-header {
+  background-color: rgba(196, 196, 196, 0.05);
+  border-radius: 20px 20px 0px 0px;
+  padding: 36px 93px;
+}
+
+.result-header-title {
+  margin: 0;
+  font-weight: 600;
+
+}
+/* ---------------- MEDIA QUERIES ---------------- */
+
+@media screen and (max-width: 600px) {
+  .check-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .main-texts-div {
+    font-size: 100%;
+    overflow: auto;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .main-div {
     justify-content: center;
   }
   .main-texts-div {
     margin-bottom: 55px;
+    max-width: 39, 06%;
+  }
+  .local-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 41px;
+    grid-column-gap: 50px;
+  }
+  .btn-submit {
+    display: none;
+  }
+  .btn-submit-none {
+    display: block;
+    display: block;
+    width: 100%;
+    margin: auto;
   }
 }
 
@@ -232,6 +291,7 @@ h1 {
     margin: 0 20px;
   }
   .vaccine-types-div {
+<<<<<<< HEAD
     display: flex;
     padding: 0px 50px;
   }
@@ -244,3 +304,22 @@ h1 {
     grid-template-rows: repeat(1, 1fr 1fr);
   }
 }
+=======
+    padding: 50px 10px 70px;
+  }
+  .imgs-vaccin-div {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-container {
+    display: none;
+  }
+  .local-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 41px;
+  }
+}
+>>>>>>> 5022b168e4e22f7c9c194ee2ff4e419e2ec7d280
