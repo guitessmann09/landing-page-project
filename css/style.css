@@ -170,11 +170,7 @@ h1 {
 .local {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   justify-content: space-between;
-=======
-  justify-content: space-around;
->>>>>>> 5022b168e4e22f7c9c194ee2ff4e419e2ec7d280
   margin-top: 10px;
   padding: 46px 40px;
   background-color: rgba(196, 196, 196, 0.1);
@@ -291,7 +287,6 @@ h1 {
     margin: 0 20px;
   }
   .vaccine-types-div {
-<<<<<<< HEAD
     display: flex;
     padding: 0px 50px;
   }
@@ -304,22 +299,3 @@ h1 {
     grid-template-rows: repeat(1, 1fr 1fr);
   }
 }
-=======
-    padding: 50px 10px 70px;
-  }
-  .imgs-vaccin-div {
-    justify-content: space-around;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .navbar-container {
-    display: none;
-  }
-  .local-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 41px;
-  }
-}
->>>>>>> 5022b168e4e22f7c9c194ee2ff4e419e2ec7d280
