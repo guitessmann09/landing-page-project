@@ -202,6 +202,9 @@ h1 {
   font-weight: bold;
   font-size: 24px;
 }
+.special-list {
+  display: none;
+}
 
 .btn-submit-none {
   margin-right: auto;
@@ -240,7 +243,6 @@ h1 {
 .result-header-title {
   margin: 0;
   font-weight: 600;
-
 }
 /* ---------------- MEDIA QUERIES ---------------- */
 
