@@ -273,11 +273,10 @@ h1 {
     grid-row-gap: 41px;
     grid-column-gap: 50px;
   }
-  .btn-submit {
+  #btn-none {
     display: none;
   }
   .btn-submit-none {
-    display: block;
     display: block;
     width: 100%;
     margin: auto;
